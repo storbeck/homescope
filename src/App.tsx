@@ -4,7 +4,6 @@ import { PhotoUploadScreen } from './components/PhotoUploadScreen';
 import { SkillCalibrationScreen } from './components/SkillCalibrationScreen';
 import { ProjectBreakdownScreen } from './components/ProjectBreakdownScreen';
 import { ProgressTrackerScreen } from './components/ProgressTrackerScreen';
-import { AIWorkflowDiagram } from './components/AIWorkflowDiagram';
 import { Home, Lightbulb } from 'lucide-react';
 
 export default function App() {
@@ -136,19 +135,6 @@ export default function App() {
                 <ProgressTrackerScreen />
               </div>
             </div>
-          </section>
-
-          <Separator className="bg-[#E5E7EB]" />
-
-          {/* AI Workflow */}
-          <section className="space-y-8">
-            <div>
-              <div className="text-3xl text-[#1F1F1F] mb-2">How It Works</div>
-              <div className="text-[#6B7280]">
-                The intelligent system behind personalized home improvement planning
-              </div>
-            </div>
-            <AIWorkflowDiagram />
           </section>
 
           <Separator className="bg-[#E5E7EB]" />
